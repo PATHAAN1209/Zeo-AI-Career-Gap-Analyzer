@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   SKILLGRAPH — PREMIUM REDESIGN
+   Inspired by Linear, Vercel, Raycast, Framer
+   ============================================================ */
+
+@layer base {
+  :root {
+    --bg-base: #030712;
+    --bg-surface: #0a0f1e;
+    --panel-base: #0d1526;
+    --panel-raised: #111f38;
+    --border-subtle: #1a2d4f;
+    --border-active: #2d4f7c;
+
+    --cyan: #06b6d4;
+    --cyan-bright: #22d3ee;
+    --cyan-glow: #00e5ff;
+    --blue: #3b82f6;
+    --blue-bright: #60a5fa;
+    --indigo: #6366f1;
+    --violet: #8b5cf6;
+    --purple: #a855f7;
+
+    --green: #10b981;
+    --green-bright: #34d399;
+    --amber: #f59e0b;
+    --amber-bright: #fbbf24;
+    --red: #ef4444;
+    --red-bright: #f87171;
+
+    --text-primary: #f0f9ff;
+    --text-secondary: #94a3b8;
+    --text-muted: #475569;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Selection highlight */
+  ::selection {
+    background: rgba(6, 182, 212, 0.25);
+    color: #22d3ee;
+  }
+}
+
+/* ============================================================
+   MESH GRADIENT BACKGROUND
+   ============================================================ */
+.mesh-bg {
+  background-color: #030712;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -20%, rgba(99, 102, 241, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(6, 182, 212, 0.10) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 60% at 50% 100%, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
+}
+
+/* ============================================================
+   GRID OVERLAY
+   ============================================================ */
+.grid-overlay {
+  background-image:
+    linear-gradient(to right, rgba(6, 182, 212, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ============================================================
+   PANELS & CARDS
+   ============================================================ */
+.glass-panel {
+  background: rgba(13, 21, 38, 0.80);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(26, 45, 79, 0.9);
+  box-shadow:
+    0 0 0 1px rgba(6, 182, 212, 0.04),
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.glass-panel:hover {
+  border-color: rgba(6, 182, 212, 0.25);
+  box-shadow:
+    0 0 0 1px rgba(6, 182, 212, 0.08),
+    0 12px 40px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(6, 182, 212, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.hud-panel {
+  background: rgba(13, 21, 38, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(26, 45, 79, 0.9);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.hud-panel:hover {
+  border-color: rgba(6, 182, 212, 0.3);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(6, 182, 212, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* ============================================================
+   GRADIENT TEXT UTILITIES
+   ============================================================ */
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 50%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-hero {
+  background: linear-gradient(135deg, #f0f9ff 0%, #22d3ee 40%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-purple {
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 50%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================================
+   GLOW EFFECTS
+   ============================================================ */
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.4), 0 0 40px rgba(6, 182, 212, 0.15);
+}
+
+.glow-cyan-sm {
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.3), 0 0 20px rgba(6, 182, 212, 0.1);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4), 0 0 40px rgba(16, 185, 129, 0.15);
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.4), 0 0 40px rgba(245, 158, 11, 0.15);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.4), 0 0 40px rgba(239, 68, 68, 0.15);
+}
+
+/* ============================================================
+   GRADIENT BORDER CARDS
+   ============================================================ */
+.gradient-border {
+  position: relative;
+  background: rgba(13, 21, 38, 0.9);
+  border-radius: 16px;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 17px;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.4), rgba(99, 102, 241, 0.2), rgba(26, 45, 79, 0.3));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  padding: 1px;
+  z-index: 0;
+}
+
+.gradient-border > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  color: #030712;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.35), 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.15), transparent);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.btn-primary:hover::before {
+  opacity: 1;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.5), 0 6px 24px rgba(0, 0, 0, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: rgba(6, 182, 212, 0.08);
+  color: #22d3ee;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  border-radius: 10px;
+  border: 1px solid rgba(6, 182, 212, 0.3);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(6, 182, 212, 0.15);
+  border-color: rgba(6, 182, 212, 0.6);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+}
+
+/* ============================================================
+   SKILL STATUS COLORS
+   ============================================================ */
+.status-have {
+  --status-color: #10b981;
+  --status-glow: rgba(16, 185, 129, 0.3);
+  --status-bg: rgba(16, 185, 129, 0.08);
+  --status-border: rgba(16, 185, 129, 0.3);
+}
+
+.status-partial {
+  --status-color: #f59e0b;
+  --status-glow: rgba(245, 158, 11, 0.3);
+  --status-bg: rgba(245, 158, 11, 0.08);
+  --status-border: rgba(245, 158, 11, 0.3);
+}
+
+.status-missing {
+  --status-color: #ef4444;
+  --status-glow: rgba(239, 68, 68, 0.3);
+  --status-bg: rgba(239, 68, 68, 0.08);
+  --status-border: rgba(239, 68, 68, 0.3);
+}
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+@keyframes float-orb {
+  0%, 100% { transform: translateY(0px) scale(1); opacity: 0.6; }
+  50% { transform: translateY(-30px) scale(1.05); opacity: 0.9; }
+}
+
+@keyframes float-orb-reverse {
+  0%, 100% { transform: translateY(0px) translateX(0px) scale(1); opacity: 0.4; }
+  33% { transform: translateY(-20px) translateX(15px) scale(1.08); opacity: 0.7; }
+  66% { transform: translateY(10px) translateX(-10px) scale(0.95); opacity: 0.5; }
+}
+
+@keyframes scanner-sweep {
+  0% { top: 0%; }
+  100% { top: 100%; }
+}
+
+@keyframes radar-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; box-shadow: 0 0 10px rgba(6, 182, 212, 0.3); }
+  50% { opacity: 1; box-shadow: 0 0 25px rgba(6, 182, 212, 0.6), 0 0 50px rgba(6, 182, 212, 0.2); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes waveform {
+  0%, 100% { height: 6px; }
+  50% { height: 18px; }
+}
+
+@keyframes typing-cursor {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #06b6d4; }
+}
+
+@keyframes progress-fill {
+  from { width: 0%; }
+  to { width: var(--target-width, 100%); }
+}
+
+.animate-float-orb { animation: float-orb 7s ease-in-out infinite; }
+.animate-float-orb-r { animation: float-orb-reverse 9s ease-in-out infinite; }
+.animate-scanner-sweep { animation: scanner-sweep 2s ease-in-out infinite alternate; }
+.animate-radar-spin { animation: radar-spin 8s linear infinite; }
+.animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
+.animate-shimmer { animation: shimmer 2.5s linear infinite; }
+.animate-slide-up { animation: slide-up 0.5s ease-out forwards; }
+.animate-fade-in { animation: fade-in 0.4s ease-out forwards; }
+.animate-scale-in { animation: scale-in 0.4s ease-out forwards; }
+
+/* ============================================================
+   WAVEFORM BARS (SG-CORE)
+   ============================================================ */
+.wave-bar {
+  width: 3px;
+  border-radius: 2px;
+  animation: waveform 1.2s ease-in-out infinite;
+  background: linear-gradient(to top, #06b6d4, #3b82f6);
+}
+.wave-bar:nth-child(1) { animation-delay: 0.0s; }
+.wave-bar:nth-child(2) { animation-delay: 0.15s; }
+.wave-bar:nth-child(3) { animation-delay: 0.3s; }
+.wave-bar:nth-child(4) { animation-delay: 0.45s; }
+.wave-bar:nth-child(5) { animation-delay: 0.6s; }
+.wave-bar:nth-child(6) { animation-delay: 0.3s; }
+.wave-bar:nth-child(7) { animation-delay: 0.15s; }
+
+/* ============================================================
+   PROGRESS BAR
+   ============================================================ */
+.progress-bar-gradient {
+  background: linear-gradient(90deg, #06b6d4, #3b82f6, #8b5cf6);
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #06b6d4, #3b82f6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #22d3ee, #60a5fa);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.5);
+}
+
+/* ============================================================
+   HUD BG GRID (Legacy compatibility)
+   ============================================================ */
+.hud-bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(6, 182, 212, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* ============================================================
+   CHAMFER CLIPS
+   ============================================================ */
+.hud-chamfer {
+  clip-path: polygon(
+    0 12px, 12px 0, calc(100% - 12px) 0, 100% 12px,
+    100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px)
+  );
+}
+
+/* ============================================================
+   SECTION LABEL
+   ============================================================ */
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #94a3b8;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.6);
+}
+
+/* ============================================================
+   INLINE INPUT FOCUS
+   ============================================================ */
+input:focus, textarea:focus, select:focus {
+  outline: none !important;
+}
+
+/* ============================================================
+   FONT FAMILIES
+   ============================================================ */
+.font-orbitron { font-family: 'Orbitron', sans-serif; }
+.font-inter { font-family: 'Inter', sans-serif; }
+.font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
