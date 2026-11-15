@@ -1,0 +1,1187 @@
+{
+  "skills": {
+    "Python": {
+      "videos": [
+        {
+          "title": "Python for Beginners - Full Course [Programming with Mosh]",
+          "channel": "Programming with Mosh",
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "6 hours",
+          "start_here": true
+        },
+        {
+          "title": "Intermediate Python Programming Course",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=HGOBQPFzWKo",
+          "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "6 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Automate the Boring Stuff with Python",
+          "author": "Al Sweigart",
+          "url": "https://automatetheboringstuff.com/",
+          "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free Online",
+          "level": "Beginner"
+        },
+        {
+          "title": "Fluent Python: Clear, Concise, and Effective Programming",
+          "author": "Luciano Ramalho",
+          "url": "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/",
+          "cover": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Python for Everybody Specialization",
+          "provider": "Coursera (Univ. of Michigan)",
+          "url": "https://www.coursera.org/specializations/python",
+          "cost": "Free Audit",
+          "level": "Beginner"
+        },
+        {
+          "title": "Official Python Documentation & Tutorials",
+          "provider": "Python Software Foundation",
+          "url": "https://docs.python.org/3/tutorial/",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "Mathematics & Linear Algebra": {
+      "videos": [
+        {
+          "title": "Essence of Linear Algebra",
+          "channel": "3Blue1Brown",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "16 videos",
+          "start_here": true
+        },
+        {
+          "title": "Mathematics for Machine Learning Full Course",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=obZpfsL2k4E",
+          "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "10 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Mathematics for Machine Learning",
+          "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+          "url": "https://mml-book.github.io/",
+          "cover": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free PDF",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Mathematics for Machine Learning and Data Science",
+          "provider": "DeepLearning.AI / Coursera",
+          "url": "https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science",
+          "cost": "Free Audit",
+          "level": "Beginner to Intermediate"
+        },
+        {
+          "title": "Linear Algebra (18.06SC)",
+          "provider": "MIT OpenCourseWare (Gilbert Strang)",
+          "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+          "cost": "Free",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "Data Preprocessing & Feature Engineering": {
+      "videos": [
+        {
+          "title": "Feature Engineering Tutorial for Machine Learning",
+          "channel": "Krish Naik",
+          "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPwYGE2PXD3x0bfKhydveCw",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "20 videos",
+          "start_here": true
+        },
+        {
+          "title": "Data Preprocessing in Python - Complete Guide",
+          "channel": "Ken Jee",
+          "url": "https://www.youtube.com/watch?v=vyv1ZkWsWlI",
+          "thumbnail": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "1.5 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Feature Engineering for Machine Learning",
+          "author": "Alice Zheng & Amanda Casari",
+          "url": "https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/",
+          "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Feature Engineering on Kaggle Learn",
+          "provider": "Kaggle",
+          "url": "https://www.kaggle.com/learn/feature-engineering",
+          "cost": "Free",
+          "level": "Intermediate"
+        },
+        {
+          "title": "Data Cleaning & Preprocessing with Pandas",
+          "provider": "DataCamp",
+          "url": "https://www.datacamp.com/courses/cleaning-data-in-python",
+          "cost": "Paid",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Scikit-Learn": {
+      "videos": [
+        {
+          "title": "Scikit-Learn Course - Machine Learning with Python",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=0B5eIE_1vpU",
+          "thumbnail": "https://images.unsplash.com/photo-1527474305487-b87b222841cc?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "3 hours",
+          "start_here": true
+        },
+        {
+          "title": "Machine Learning with Scikit-Learn in 1 Hour",
+          "channel": "StatQuest with Josh Starmer",
+          "url": "https://www.youtube.com/watch?v=q60UeHjPmsI",
+          "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1.5 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+          "author": "Aurélien Géron",
+          "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
+          "cover": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner to Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Scikit-Learn MOOC - Machine Learning in Python",
+          "provider": "Inria",
+          "url": "https://inria.github.io/scikit-learn-mooc/",
+          "cost": "Free",
+          "level": "Intermediate"
+        },
+        {
+          "title": "Intro to Machine Learning",
+          "provider": "Kaggle",
+          "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Deep Learning (PyTorch or TensorFlow)": {
+      "videos": [
+        {
+          "title": "PyTorch for Deep Learning & Machine Learning - Full Course",
+          "channel": "freeCodeCamp.org (Daniel Bourke)",
+          "url": "https://www.youtube.com/watch?v=V_xro1bcAuA",
+          "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner to Intermediate",
+          "duration": "26 hours",
+          "start_here": true
+        },
+        {
+          "title": "Neural Networks: Zero to Hero",
+          "channel": "Andrej Karpathy",
+          "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+          "thumbnail": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "7 lectures"
+        }
+      ],
+      "books": [
+        {
+          "title": "Deep Learning",
+          "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+          "url": "https://www.deeplearningbook.org/",
+          "cover": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free Online",
+          "level": "Intermediate to Advanced"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Deep Learning Specialization",
+          "provider": "DeepLearning.AI (Andrew Ng)",
+          "url": "https://www.coursera.org/specializations/deep-learning",
+          "cost": "Free Audit",
+          "level": "Intermediate"
+        },
+        {
+          "title": "Practical Deep Learning for Coders",
+          "provider": "fast.ai",
+          "url": "https://course.fast.ai/",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "Computer Vision or NLP": {
+      "videos": [
+        {
+          "title": "Hugging Face NLP Course - Transformers from Scratch",
+          "channel": "Hugging Face",
+          "url": "https://www.youtube.com/watch?v=00GKzGyUFEs",
+          "thumbnail": "https://images.unsplash.com/photo-1534972195531-a756b1126f24?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "10 videos",
+          "start_here": true
+        },
+        {
+          "title": "OpenCV Course - Full Tutorial with Python",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=oXlwWbU8l2o",
+          "thumbnail": "https://images.unsplash.com/photo-1507499739999-097706ad8914?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "3 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Natural Language Processing with Transformers",
+          "author": "Lewis Tunstall, Leandro von Werra, Thomas Wolf",
+          "url": "https://transformers-book.com/",
+          "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "NLP Specialization",
+          "provider": "DeepLearning.AI",
+          "url": "https://www.coursera.org/specializations/natural-language-processing",
+          "cost": "Free Audit",
+          "level": "Intermediate"
+        },
+        {
+          "title": "Computer Vision Course",
+          "provider": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn/computer-vision",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Model Evaluation & Validation": {
+      "videos": [
+        {
+          "title": "Machine Learning Model Evaluation Metrics Explained",
+          "channel": "StatQuest with Josh Starmer",
+          "url": "https://www.youtube.com/watch?v=wpNl-JgiS-U",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1 hour",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Approaching (Almost) Any Machine Learning Problem",
+          "author": "Abhishek Thakur",
+          "url": "https://github.com/abhishekkrthakur/approachingalmost",
+          "cover": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free PDF",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Machine Learning Model Evaluation & Hyperparameter Tuning",
+          "provider": "Coursera",
+          "url": "https://www.coursera.org/learn/machine-learning-model-evaluation",
+          "cost": "Free Audit",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "MLOps & Model Deployment": {
+      "videos": [
+        {
+          "title": "Deploy Machine Learning Models with FastAPI & Docker",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=h5wLuVDr0oc",
+          "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "4 hours",
+          "start_here": true
+        },
+        {
+          "title": "MLOps Zoomcamp - Complete Production ML",
+          "channel": "DataTalks.Club",
+          "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErQ4",
+          "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate to Advanced",
+          "duration": "12 weeks"
+        }
+      ],
+      "books": [
+        {
+          "title": "Designing Machine Learning Systems",
+          "author": "Chip Huyen",
+          "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
+          "cover": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Machine Learning Engineering for Production (MLOps) Specialization",
+          "provider": "DeepLearning.AI",
+          "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+          "cost": "Free Audit",
+          "level": "Intermediate"
+        },
+        {
+          "title": "Made With ML: Production MLOps Course",
+          "provider": "Goku Mohandas",
+          "url": "https://madewithml.com/",
+          "cost": "Free",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "HTML5 & Semantic Web": {
+      "videos": [
+        {
+          "title": "HTML Full Course - Build a Website Tutorial",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+          "thumbnail": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "2 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "HTML and CSS: Design and Build Websites",
+          "author": "Jon Duckett",
+          "url": "https://www.wiley.com/en-us/HTML+and+CSS%3A+Design+and+Build+Websites-p-9781118008188",
+          "cover": "https://images.unsplash.com/photo-1507842229451-7f01be8510d2?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner"
+        }
+      ],
+      "courses": [
+        {
+          "title": "MDN Web Docs - HTML Structure & Semantics",
+          "provider": "Mozilla Developer Network",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "CSS3, Flexbox & Grid": {
+      "videos": [
+        {
+          "title": "CSS Flexbox and Grid - Complete Guide with Interactive Layouts",
+          "channel": "Kevin Powell",
+          "url": "https://www.youtube.com/watch?v=rg7Fvvl3taU",
+          "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner to Intermediate",
+          "duration": "2 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "CSS Secrets: Better Solutions to Everyday Web Problems",
+          "author": "Lea Verou",
+          "url": "https://www.oreilly.com/library/view/css-secrets/9781449372736/",
+          "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Responsive Web Design Certification",
+          "provider": "freeCodeCamp.org",
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Modern JavaScript (ES6+)": {
+      "videos": [
+        {
+          "title": "JavaScript Tutorial for Beginners: Learn JS in 1 Hour",
+          "channel": "Programming with Mosh",
+          "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+          "thumbnail": "https://images.unsplash.com/photo-1579468118864-ddb585c4b305?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1 hour",
+          "start_here": true
+        },
+        {
+          "title": "Namaste JavaScript Season 1 & 2",
+          "channel": "Akshay Saini",
+          "url": "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP",
+          "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "18 episodes"
+        }
+      ],
+      "books": [
+        {
+          "title": "Eloquent JavaScript, 4th Edition",
+          "author": "Marijn Haverbeke",
+          "url": "https://eloquentjavascript.net/",
+          "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free Online",
+          "level": "Beginner to Intermediate"
+        },
+        {
+          "title": "You Don't Know JS Yet",
+          "author": "Kyle Simpson",
+          "url": "https://github.com/getify/You-Dont-Know-JS",
+          "cover": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free on GitHub",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "The Complete JavaScript Course 2026: From Zero to Expert!",
+          "provider": "Jonas Schmedtmann / Udemy",
+          "url": "https://www.udemy.com/course/the-complete-javascript-course/",
+          "cost": "Paid",
+          "level": "Beginner to Advanced"
+        },
+        {
+          "title": "JavaScript (ES6+) on MDN",
+          "provider": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "React.js": {
+      "videos": [
+        {
+          "title": "React Course 2026 - Learn React in 10 Hours",
+          "channel": "freeCodeCamp.org (Bob Ziroll)",
+          "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "10 hours",
+          "start_here": true
+        },
+        {
+          "title": "React 19 & Next.js Full Stack Tutorial",
+          "channel": "Jack Herrington",
+          "url": "https://www.youtube.com/watch?v=d5x0JCb9WkY",
+          "thumbnail": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "3 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Learning React: Modern Patterns for Developing React Apps",
+          "author": "Alex Banks & Eve Porcello",
+          "url": "https://www.oreilly.com/library/view/learning-react-2nd/9781492051718/",
+          "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner to Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Official React Documentation (react.dev)",
+          "provider": "React Core Team",
+          "url": "https://react.dev/learn",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        },
+        {
+          "title": "Epic React with Kent C. Dodds",
+          "provider": "Kent C. Dodds",
+          "url": "https://epicreact.dev/",
+          "cost": "Paid",
+          "level": "Intermediate to Advanced"
+        }
+      ]
+    },
+    "TypeScript": {
+      "videos": [
+        {
+          "title": "TypeScript Tutorial for Beginners - Full Course",
+          "channel": "Programming with Mosh",
+          "url": "https://www.youtube.com/watch?v=d56mG7DezGs",
+          "thumbnail": "https://images.unsplash.com/photo-1516116211227-bbc04c6b840e?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1 hour",
+          "start_here": true
+        },
+        {
+          "title": "React with TypeScript - Complete Tutorial",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=TiSGujM22OI",
+          "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "2.5 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Programming TypeScript: Making Your JavaScript Applications Scale",
+          "author": "Boris Cherny",
+          "url": "https://www.oreilly.com/library/view/programming-typescript/9781492037644/",
+          "cover": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "TypeScript Handbook & Documentation",
+          "provider": "Microsoft TypeScript Team",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        },
+        {
+          "title": "Total TypeScript Tutorials",
+          "provider": "Matt Pocock",
+          "url": "https://www.totaltypescript.com/tutorials",
+          "cost": "Free",
+          "level": "Intermediate to Advanced"
+        }
+      ]
+    },
+    "State Management": {
+      "videos": [
+        {
+          "title": "Redux Toolkit & Zustand - Modern State Management",
+          "channel": "Dave Gray",
+          "url": "https://www.youtube.com/watch?v=NqzdVN2tyvQ",
+          "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "2 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Redux in Action",
+          "author": "Marc Garreau & Will Faurot",
+          "url": "https://www.manning.com/books/redux-in-action",
+          "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Official Redux Essentials Tutorial",
+          "provider": "Redux Documentation",
+          "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+          "cost": "Free",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "Responsive & Mobile-First Design": {
+      "videos": [
+        {
+          "title": "Responsive Web Design Principles & Practical Layouts",
+          "channel": "Kevin Powell",
+          "url": "https://www.youtube.com/watch?v=srvUrASNj0s",
+          "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1.5 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Responsive Web Design",
+          "author": "Ethan Marcotte",
+          "url": "https://abookapart.com/products/responsive-web-design",
+          "cover": "https://images.unsplash.com/photo-1507842229451-7f01be8510d2?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Learn Responsive Design on web.dev",
+          "provider": "Google Chrome Team",
+          "url": "https://web.dev/learn/design",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "API Integration & Async Programming": {
+      "videos": [
+        {
+          "title": "Async JavaScript, Fetch API, and Promises - Complete Guide",
+          "channel": "Traversy Media",
+          "url": "https://www.youtube.com/watch?v=PoRJizFvM7s",
+          "thumbnail": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner to Intermediate",
+          "duration": "1.5 hours",
+          "start_here": true
+        },
+        {
+          "title": "TanStack React Query Tutorial for Beginners",
+          "channel": "Cosden Solutions",
+          "url": "https://www.youtube.com/watch?v=novnyCaa7To",
+          "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "45 min"
+        }
+      ],
+      "books": [
+        {
+          "title": "Designing Web APIs: Principles and Best Practices",
+          "author": "Brenda Jin, Saurabh Sahni, Amir Shevat",
+          "url": "https://www.oreilly.com/library/view/designing-web-apis/9781492039280/",
+          "cover": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "TanStack Query v5 Official Documentation",
+          "provider": "TanStack",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+          "cost": "Free",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "SQL & Relational Databases": {
+      "videos": [
+        {
+          "title": "SQL Tutorial - Full Database Course for Beginners",
+          "channel": "freeCodeCamp.org (Mike Dane)",
+          "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+          "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "4 hours",
+          "start_here": true
+        },
+        {
+          "title": "Advanced SQL Tutorial: Window Functions, CTEs & Aggregations",
+          "channel": "Alex The Analyst",
+          "url": "https://www.youtube.com/watch?v=Ww71knvhQ-s",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "2 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Learning SQL: Generate, Manipulate, and Retrieve Data",
+          "author": "Alan Beaulieu",
+          "url": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/",
+          "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner to Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "SQL for Data Science",
+          "provider": "UC Davis / Coursera",
+          "url": "https://www.coursera.org/learn/sql-for-data-science",
+          "cost": "Free Audit",
+          "level": "Beginner"
+        },
+        {
+          "title": "SQLZoo Interactive SQL Practice",
+          "provider": "SQLZoo",
+          "url": "https://sqlzoo.net/",
+          "cost": "Free",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "Excel & Advanced Spreadsheets": {
+      "videos": [
+        {
+          "title": "Excel Tutorial for Beginners - Complete Crash Course",
+          "channel": "Kevin Stratvert",
+          "url": "https://www.youtube.com/watch?v=k1VUZEVuDJ8",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1 hour",
+          "start_here": true
+        },
+        {
+          "title": "Excel for Data Analysts - Full Course",
+          "channel": "Alex The Analyst",
+          "url": "https://www.youtube.com/watch?v=Op2HdbR4e-I",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Intermediate",
+          "duration": "3 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Excel Data Analysis For Dummies",
+          "author": "Paul McFedries",
+          "url": "https://www.wiley.com/en-us/Excel+Data+Analysis+For+Dummies%2C+5th+Edition-p-9781119844440",
+          "cover": "https://images.unsplash.com/photo-1507842229451-7f01be8510d2?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Excel Skills for Business Specialization",
+          "provider": "Macquarie University / Coursera",
+          "url": "https://www.coursera.org/specializations/excel",
+          "cost": "Free Audit",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "Python for Data Analysis": {
+      "videos": [
+        {
+          "title": "Pandas & NumPy Full Course for Data Science",
+          "channel": "freeCodeCamp.org (Keith Galli)",
+          "url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner to Intermediate",
+          "duration": "1 hour",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Python for Data Analysis, 3rd Edition",
+          "author": "Wes McKinney (Creator of Pandas)",
+          "url": "https://wesmckinney.com/book/",
+          "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free Online",
+          "level": "Beginner to Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Applied Data Science with Python Specialization",
+          "provider": "University of Michigan / Coursera",
+          "url": "https://www.coursera.org/specializations/data-science-python",
+          "cost": "Free Audit",
+          "level": "Intermediate"
+        },
+        {
+          "title": "Pandas Micro-Course",
+          "provider": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn/pandas",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Data Visualization": {
+      "videos": [
+        {
+          "title": "Data Visualization with Python - Matplotlib and Seaborn",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=UO98lJQ3QGI",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "3 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Storytelling with Data: A Data Visualization Guide for Business Professionals",
+          "author": "Cole Nussbaumer Knaflic",
+          "url": "https://www.storytellingwithdata.com/books",
+          "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner to Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Data Visualization on Kaggle",
+          "provider": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn/data-visualization",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Business Intelligence Tools": {
+      "videos": [
+        {
+          "title": "Power BI Full Course - Learn Power BI in 4 Hours",
+          "channel": "Edureka",
+          "url": "https://www.youtube.com/watch?v=3u7UDvR66b8",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "4 hours",
+          "start_here": true
+        },
+        {
+          "title": "Tableau for Beginners - Complete Crash Course",
+          "channel": "Alex The Analyst",
+          "url": "https://www.youtube.com/watch?v=7Jl-RwkzqQ4",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "1.5 hours"
+        }
+      ],
+      "books": [
+        {
+          "title": "Mastering Power BI",
+          "author": "Brett Powell",
+          "url": "https://www.packtpub.com/product/mastering-power-bi/9781788297233",
+          "cover": "https://images.unsplash.com/photo-1507842229451-7f01be8510d2?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Google Data Analytics Professional Certificate",
+          "provider": "Google / Coursera",
+          "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+          "cost": "Free Audit",
+          "level": "Beginner"
+        },
+        {
+          "title": "Microsoft Power BI Data Analyst (PL-300)",
+          "provider": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/",
+          "cost": "Free",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "Exploratory Data Analysis (EDA)": {
+      "videos": [
+        {
+          "title": "Complete Exploratory Data Analysis (EDA) in Python",
+          "channel": "Keith Galli",
+          "url": "https://www.youtube.com/watch?v=GjKQ6V_ViQE",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner to Intermediate",
+          "duration": "1.5 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Practical Statistics for Data Scientists",
+          "author": "Peter Bruce & Andrew Bruce",
+          "url": "https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/",
+          "cover": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Exploratory Data Analysis on Coursera",
+          "provider": "Johns Hopkins University",
+          "url": "https://www.coursera.org/learn/exploratory-data-analysis",
+          "cost": "Free Audit",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "Statistical Analysis & Hypothesis Testing": {
+      "videos": [
+        {
+          "title": "Statistics and Probability Full Course",
+          "channel": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/watch?v=sbbYntt5CJk",
+          "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner to Intermediate",
+          "duration": "11 hours",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Naked Statistics: Stripping the Dread from the Data",
+          "author": "Charles Wheelan",
+          "url": "https://wwnorton.com/books/Naked-Statistics/",
+          "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Beginner"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Introduction to Statistics",
+          "provider": "Stanford Online / Coursera",
+          "url": "https://www.coursera.org/learn/stanford-statistics",
+          "cost": "Free Audit",
+          "level": "Beginner"
+        }
+      ]
+    },
+    "Data Cleaning & Transformation": {
+      "videos": [
+        {
+          "title": "Data Cleaning in Pandas - Real World Project Tutorial",
+          "channel": "Alex The Analyst",
+          "url": "https://www.youtube.com/watch?v=bDhvCp3_lYw",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60",
+          "cost": "Free",
+          "level": "Beginner",
+          "duration": "45 min",
+          "start_here": true
+        }
+      ],
+      "books": [
+        {
+          "title": "Bad Data Handbook: Cleaning Up The Data So You Can Get Back To Work",
+          "author": "Q. Ethan McCallum",
+          "url": "https://www.oreilly.com/library/view/bad-data-handbook/9781449324957/",
+          "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=60",
+          "cost": "Paid",
+          "level": "Intermediate"
+        }
+      ],
+      "courses": [
+        {
+          "title": "Data Cleaning Course",
+          "provider": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn/data-cleaning",
+          "cost": "Free",
+          "level": "Beginner"
+        }
+      ]
+    }
+  },
+  "opportunities": {
+    "ml-engineer": [
+      {
+        "id": "opp-ml-1",
+        "title": "Kaggle Competitions & Community Competitions",
+        "type": "Competition",
+        "organization": "Kaggle / Google",
+        "url": "https://www.kaggle.com/competitions",
+        "description": "Compete with global machine learning practitioners on real-world datasets, benchmark architectures, and win prize pools & medals.",
+        "badge": "Active Competitions",
+        "location": "Global / Remote"
+      },
+      {
+        "id": "opp-ml-2",
+        "title": "Google Summer of Code (GSoC) - Open Source ML",
+        "type": "Open Source Fellowship",
+        "organization": "Google & Open Source Orgs",
+        "url": "https://summerofcode.withgoogle.com/",
+        "description": "Contribute to top AI/ML projects like TensorFlow, PyTorch ecosystem, Scikit-learn, and receive mentorship and stipends.",
+        "badge": "Paid Fellowship",
+        "location": "Remote"
+      },
+      {
+        "id": "opp-ml-3",
+        "title": "Major League Hacking (MLH) Fellowship",
+        "type": "Fellowship & Internship",
+        "organization": "Major League Hacking",
+        "url": "https://fellowship.mlh.io/",
+        "description": "12-week remote internship alternative where students contribute to real open-source AI and software projects used worldwide.",
+        "badge": "Mentored Cohort",
+        "location": "Remote"
+      },
+      {
+        "id": "opp-ml-4",
+        "title": "LinkedIn Machine Learning Internships Portal",
+        "type": "Internships",
+        "organization": "LinkedIn Jobs",
+        "url": "https://www.linkedin.com/jobs/machine-learning-intern-jobs/",
+        "description": "Curated live listings of machine learning engineering internships and junior roles from startups to Big Tech.",
+        "badge": "Job Board",
+        "location": "Worldwide / Hybrid"
+      },
+      {
+        "id": "opp-ml-5",
+        "title": "Unstop AI/ML Hackathons & Innovation Challenges",
+        "type": "Hackathon",
+        "organization": "Unstop",
+        "url": "https://unstop.com/hackathons?opportunity=hackathons&filters=,all,open,",
+        "description": "Participate in corporate hackathons, AI challenges, and student technology competitions with hiring tracks.",
+        "badge": "Hiring Challenges",
+        "location": "Global / Online"
+      }
+    ],
+    "frontend-dev": [
+      {
+        "id": "opp-fe-1",
+        "title": "Devpost Global Hackathons",
+        "type": "Hackathon",
+        "organization": "Devpost",
+        "url": "https://devpost.com/hackathons",
+        "description": "Build high-impact web apps, showcase frontend UI/UX skills, and compete in premier worldwide hackathons.",
+        "badge": "Hackathons",
+        "location": "Online / Global"
+      },
+      {
+        "id": "opp-fe-2",
+        "title": "Frontend Mentor - Challenges & Job Board",
+        "type": "Portfolio Builder",
+        "organization": "Frontend Mentor",
+        "url": "https://www.frontendmentor.io/challenges",
+        "description": "Improve your real-world frontend and UI engineering skills by building HTML/CSS/JS/React projects according to Figma specs.",
+        "badge": "Pro Challenges",
+        "location": "Remote"
+      },
+      {
+        "id": "opp-fe-3",
+        "title": "Google Summer of Code - Web & UI Systems",
+        "type": "Open Source Fellowship",
+        "organization": "Google & Partner Orgs",
+        "url": "https://summerofcode.withgoogle.com/",
+        "description": "Contribute to prominent web frameworks, accessibility libraries, and browser tooling ecosystems.",
+        "badge": "Paid Fellowship",
+        "location": "Remote"
+      },
+      {
+        "id": "opp-fe-4",
+        "title": "Internshala Frontend Developer Internships",
+        "type": "Internship",
+        "organization": "Internshala",
+        "url": "https://internshala.com/internships/front-end-development-internship/",
+        "description": "Verified paid internships and apprenticeship programs for aspiring frontend and React engineers.",
+        "badge": "Student Internships",
+        "location": "Remote / In-Office"
+      },
+      {
+        "id": "opp-fe-5",
+        "title": "LinkedIn Frontend Developer Internships",
+        "type": "Job Board",
+        "organization": "LinkedIn Jobs",
+        "url": "https://www.linkedin.com/jobs/front-end-developer-intern-jobs/",
+        "description": "Direct recruiter postings for Frontend Developer interns, co-ops, and associate software engineers.",
+        "badge": "Direct Hiring",
+        "location": "Global"
+      }
+    ],
+    "data-analyst": [
+      {
+        "id": "opp-da-1",
+        "title": "Kaggle Datasets & Community Analytics Challenges",
+        "type": "Analytics Competition",
+        "organization": "Kaggle",
+        "url": "https://www.kaggle.com/datasets",
+        "description": "Analyze open datasets, publish exploratory data notebooks, and gain community upvotes and Grandmaster badges.",
+        "badge": "Public Datasets",
+        "location": "Global"
+      },
+      {
+        "id": "opp-da-2",
+        "title": "Tableau Student Ambassador & Community Challenges",
+        "type": "Community Challenge",
+        "organization": "Tableau / Salesforce",
+        "url": "https://www.tableau.com/community/academic",
+        "description": "Participate in 'Makeover Monday' and 'Workout Wednesday' dashboard design challenges, and access free student licenses.",
+        "badge": "Student Program",
+        "location": "Remote"
+      },
+      {
+        "id": "opp-da-3",
+        "title": "Unstop Business & Data Analytics Competitions",
+        "type": "Case Competition",
+        "organization": "Unstop",
+        "url": "https://unstop.com/competitions?filters=,all,open,",
+        "description": "Business intelligence case competitions, corporate data challenges, and analytics Olympiads.",
+        "badge": "Prize & PPI Tracks",
+        "location": "Online"
+      },
+      {
+        "id": "opp-da-4",
+        "title": "LinkedIn Data Analyst Internships",
+        "type": "Internships",
+        "organization": "LinkedIn Jobs",
+        "url": "https://www.linkedin.com/jobs/data-analyst-intern-jobs/",
+        "description": "Comprehensive listings of data analyst internships, business intelligence roles, and junior analytics positions.",
+        "badge": "Job Board",
+        "location": "Worldwide"
+      },
+      {
+        "id": "opp-da-5",
+        "title": "Internshala Data Analytics Internships",
+        "type": "Internship",
+        "organization": "Internshala",
+        "url": "https://internshala.com/internships/data-analytics-internship/",
+        "description": "Verified student internship listings focusing on SQL, Excel, Python, and dashboard creation.",
+        "badge": "Student Internships",
+        "location": "Remote / Hybrid"
+      }
+    ]
+  }
+}
